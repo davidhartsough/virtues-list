@@ -1,0 +1,97 @@
+:root {
+  --font-family: ui-sans-serif, system-ui, -apple-system, "BlinkMacSystemFont",
+    "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "Noto Sans", sans-serif;
+  --black: #101214;
+  --white: #f8f9fa;
+  --bg: var(--white);
+  --fg: var(--black);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: var(--black);
+    --fg: var(--white);
+  }
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg);
+  color: var(--fg);
+  fill: var(--fg);
+  line-height: 1.5;
+}
+body {
+  margin: 0;
+}
+main {
+  padding: 1rem 1rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  flex: 1 1 48rem;
+  max-width: 48rem;
+  margin: auto;
+  border: 0.5px solid #bbb;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+.t0 {
+  font-size: 64px;
+}
+.t1 {
+  font-size: 56px;
+}
+.t2 {
+  font-size: 48px;
+}
+.t3 {
+  font-size: 40px;
+}
+.t4 {
+  font-size: 36px;
+}
+.t5 {
+  font-size: 34px;
+}
+.t6 {
+  font-size: 32px;
+}
+.t7 {
+  font-size: 30px;
+}
+.t9 {
+  font-size: 24px;
+}
+.t10 {
+  font-size: 20px;
+}
+.t11 {
+  font-size: 16px;
+}
+.t12 {
+  font-size: 12px;
+}
+.t13 {
+  font-size: 10px;
+}
+.t14 {
+  font-size: 8px;
+}
